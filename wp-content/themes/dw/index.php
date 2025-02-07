@@ -6,7 +6,8 @@
     <title></title>
 </head>
 <body>
-<h1>Hello World</h1>
+<h1><?= get_bloginfo('name') ?></h1>
+<p><?= get_bloginfo('description') ?></p>
 <p></p>
 </body>
 </html>
