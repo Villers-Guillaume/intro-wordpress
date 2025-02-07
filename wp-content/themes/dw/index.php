@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+    <title><?= wp_title('.', false, 'right') . get_bloginfo('name') ?></title>
 </head>
 <body>
-<h1>Hello World</h1>
-<p></p>
+<h1><?= get_bloginfo('name') ?></h1>
+<p><?= get_bloginfo('description') ?></p>
 </body>
 </html>
