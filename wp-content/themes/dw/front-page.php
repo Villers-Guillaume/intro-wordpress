@@ -12,6 +12,7 @@
 </header>
 
 <main>
+    <h2>Bienvenue sur mon site&nbsp;!</h2>
     <?php
     //On ouvre la boucle (the loop) la structure de contrôle de contenu propre à wordpress
     if (have_posts()) : while (have_posts()) : the_post(); ?>
